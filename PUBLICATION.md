@@ -1,15 +1,11 @@
 # Publication scope
 
-This is a personal portfolio case study with a newly written demonstration of general workflow concepts.
+This release contains sanitized operational source and reusable templates. The shared engine and event-workspace layer are maintained here together.
 
-Included:
+Included: workflow code, inline agent prompts and schemas, task instructions, journal hook/scripts, document-filling code, generic methodology, workspace scaffolding, and version-pinned distribution.
 
-- An original high-level explanation of the problem, architecture, and trade-offs.
-- A small Python reference demo written for this release.
-- Fictional fixtures, generated example output, and local tests.
+Excluded: actual speaker/sponsor/participant records, correspondence, survey responses, internal decisions and journal entries, transcripts, private URLs and document IDs, local account paths, credentials, and service-specific connection configuration. Event-specific facts and examples were removed or replaced with explicit placeholders. Private repository histories were not imported.
 
-The original private repositories, commit histories, operational documents, internal links, company-specific policies, real speaker and sponsor records, conversation logs, credentials, and financial information are outside this publication.
+The original explanation-only examples have been replaced by tests and fixtures that execute the source workflows. `examples/` contains explicitly synthetic data. Newly added runtime adapters and source adaptations are described in [source-map.md](docs/source-map.md).
 
-The demo is not the historical implementation. Its current commit date reflects the public reconstruction, not the start date of the earlier work. This project is presented by its author and does not imply endorsement by an employer or event organizer.
-
-The `synthetic` fixture flag is a usage convention, not an automatic privacy scanner. Only the included fixtures have been prepared for this public example.
+`python3 scripts/check-publication.py` checks candidate public files for common credential and identifier patterns. It is a review aid, not a guarantee of anonymization; human review is still necessary before adding operational material. Generated records belong in ignored local paths or a separate private event workspace.

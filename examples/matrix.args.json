@@ -1,0 +1,8 @@
+{
+  "today": "2030-04-15",
+  "since": "2029-01-01",
+  "event": "Example Engineering Conference",
+  "scale": ["Startup"],
+  "roles": ["SRE"],
+  "sourceGuardA": "IR・公式ニュースリリースを一次情報として扱い、推測と確認済み事項を区別する。"
+}

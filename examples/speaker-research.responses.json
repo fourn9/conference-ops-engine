@@ -1,0 +1,112 @@
+{
+  "synthetic": true,
+  "responses": {
+    "find:blogs": {
+      "candidates": [
+        {
+          "name": "Example A",
+          "company": "Example Company",
+          "role": "Engineer",
+          "url": "https://example.org/synthetic/source",
+          "title": "Synthetic migration example",
+          "date": "2030-04",
+          "evidence_quote": "Fictional fixture text, not a real quotation.",
+          "theme_fit": "migration",
+          "source_type": "synthetic"
+        },
+        {
+          "name": "Excluded Example",
+          "company": "Example Company",
+          "role": "Engineer",
+          "url": "https://example.org/synthetic/source",
+          "title": "Synthetic migration example",
+          "date": "2030-04",
+          "evidence_quote": "Fictional fixture text, not a real quotation.",
+          "theme_fit": "migration",
+          "source_type": "synthetic"
+        },
+        {
+          "name": "Example B",
+          "company": "Example Company",
+          "role": "Engineer",
+          "url": "https://example.org/synthetic/source",
+          "title": "Synthetic migration example",
+          "date": "2030-04",
+          "evidence_quote": "Fictional fixture text, not a real quotation.",
+          "theme_fit": "migration",
+          "source_type": "synthetic"
+        }
+      ],
+      "searched_sources": [
+        "https://example.org/synthetic/blog"
+      ]
+    },
+    "find:talks": {
+      "candidates": [
+        {
+          "name": "Example A",
+          "company": "Example Company",
+          "role": "Engineer",
+          "url": "https://example.org/synthetic/source",
+          "title": "Synthetic migration example",
+          "date": "2030-04",
+          "evidence_quote": "Fictional fixture text, not a real quotation.",
+          "theme_fit": "migration",
+          "source_type": "synthetic"
+        },
+        {
+          "name": "Example C",
+          "company": "Example Company",
+          "role": "Engineer",
+          "url": "https://example.org/synthetic/source",
+          "title": "Synthetic migration example",
+          "date": "2030-04",
+          "evidence_quote": "Fictional fixture text, not a real quotation.",
+          "theme_fit": "migration",
+          "source_type": "synthetic"
+        }
+      ],
+      "searched_sources": [
+        "https://example.org/synthetic/talk"
+      ]
+    },
+    "verify:migration:Example A": {
+      "name": "Example A",
+      "company_current": "Example Company",
+      "role_current": "Engineer",
+      "employment_evidence": "Synthetic fixture",
+      "url_ok": true,
+      "author_match": true,
+      "g8_type": "a",
+      "gate_f": "採用",
+      "gate_f_reason": "Synthetic first-hand example",
+      "article_date": "2030-04",
+      "priority_reason": "Synthetic evidence",
+      "priority": "B",
+      "ai_context": "非AI",
+      "verdict": "確定",
+      "verdict_reason": "Fixture response",
+      "recommend_reason": "Synthetic recommendation",
+      "summary": "Fictional test data"
+    },
+    "verify:migration:Example B": {
+      "name": "Example B",
+      "company_current": "Example Company",
+      "role_current": "Engineer",
+      "employment_evidence": "Synthetic fixture",
+      "url_ok": false,
+      "author_match": true,
+      "g8_type": "a",
+      "gate_f": "採用",
+      "gate_f_reason": "Synthetic first-hand example",
+      "article_date": "2030-04",
+      "priority_reason": "Synthetic evidence",
+      "priority": "B",
+      "ai_context": "非AI",
+      "verdict": "保留",
+      "verdict_reason": "Fixture response",
+      "recommend_reason": "Synthetic recommendation",
+      "summary": "Fictional test data"
+    }
+  }
+}

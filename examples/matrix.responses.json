@@ -1,0 +1,127 @@
+{
+  "synthetic": true,
+  "responses": {
+    "A:Startup": {
+      "segment": "Startup",
+      "cells": [
+        {
+          "purpose": "P1立上",
+          "level": "△",
+          "evidence": "Synthetic fixture",
+          "url": "https://example.org/synthetic/strategy",
+          "crosscheck_needed": true
+        },
+        {
+          "purpose": "P2拡張",
+          "level": "△",
+          "evidence": "Synthetic fixture",
+          "url": "https://example.org/synthetic/strategy",
+          "crosscheck_needed": true
+        },
+        {
+          "purpose": "P3統合",
+          "level": "△",
+          "evidence": "Synthetic fixture",
+          "url": "https://example.org/synthetic/strategy",
+          "crosscheck_needed": true
+        },
+        {
+          "purpose": "P4刷新",
+          "level": "△",
+          "evidence": "Synthetic fixture",
+          "url": "https://example.org/synthetic/strategy",
+          "crosscheck_needed": true
+        },
+        {
+          "purpose": "P5 AI組込",
+          "level": "△",
+          "evidence": "Synthetic fixture",
+          "url": "https://example.org/synthetic/strategy",
+          "crosscheck_needed": true
+        },
+        {
+          "purpose": "P6 AIネイティブ",
+          "level": "△",
+          "evidence": "Synthetic fixture",
+          "url": "https://example.org/synthetic/strategy",
+          "crosscheck_needed": true
+        }
+      ],
+      "sources": [
+        "https://example.org/synthetic/strategy"
+      ]
+    },
+    "B:SRE": {
+      "role": "SRE",
+      "cells": [
+        {
+          "purpose": "P1立上",
+          "issue": "1. Synthetic issue",
+          "background": "1. Synthetic context",
+          "reason": "1. Hypothesis",
+          "to_explore": "1. Design trade-off",
+          "sources": [
+            "https://example.org/synthetic/practitioner"
+          ],
+          "gate_pass": false
+        },
+        {
+          "purpose": "P2拡張",
+          "issue": "1. Synthetic issue",
+          "background": "1. Synthetic context",
+          "reason": "1. Hypothesis",
+          "to_explore": "1. Design trade-off",
+          "sources": [
+            "https://example.org/synthetic/practitioner"
+          ],
+          "gate_pass": false
+        },
+        {
+          "purpose": "P3統合",
+          "issue": "1. Synthetic issue",
+          "background": "1. Synthetic context",
+          "reason": "1. Hypothesis",
+          "to_explore": "1. Design trade-off",
+          "sources": [
+            "https://example.org/synthetic/practitioner"
+          ],
+          "gate_pass": false
+        },
+        {
+          "purpose": "P4刷新",
+          "issue": "1. Synthetic issue",
+          "background": "1. Synthetic context",
+          "reason": "1. Hypothesis",
+          "to_explore": "1. Design trade-off",
+          "sources": [
+            "https://example.org/synthetic/practitioner"
+          ],
+          "gate_pass": false
+        },
+        {
+          "purpose": "P5 AI組込",
+          "issue": "1. Synthetic issue",
+          "background": "1. Synthetic context",
+          "reason": "1. Hypothesis",
+          "to_explore": "1. Design trade-off",
+          "sources": [
+            "https://example.org/synthetic/practitioner"
+          ],
+          "gate_pass": false
+        },
+        {
+          "purpose": "P6 AIネイティブ",
+          "issue": "1. Synthetic issue",
+          "background": "1. Synthetic context",
+          "reason": "1. Hypothesis",
+          "to_explore": "1. Design trade-off",
+          "sources": [
+            "https://example.org/synthetic/practitioner"
+          ],
+          "gate_pass": false
+        }
+      ],
+      "gate_notes": "All cells require real-source verification"
+    }
+  }
+}

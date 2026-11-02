@@ -1,0 +1,12 @@
+{
+  "today": "2030-04-15",
+  "since": "2029-01-01",
+  "angles": [
+    {"theme": "migration", "key": "blogs", "prompt": "サービス移行の設計判断を自分の経験として書いた実務者を、技術ブログから探索してください。"},
+    {"theme": "migration", "key": "talks", "prompt": "サービス移行の設計判断を説明した実務者を、本人の登壇資料から探索してください。"}
+  ],
+  "gateFRules": {"migration": "実際の移行で制約・判断・結果を示す本人発信のみ採用。一般論の解説は不採用。"},
+  "excluded": ["Excluded Example"],
+  "cap": 2,
+  "priorityRules": "技術的根拠の具体性が高い場合A、判断材料不足はB、対象と距離がある場合C。"
+}

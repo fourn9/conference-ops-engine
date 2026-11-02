@@ -1,0 +1,25 @@
+# Managed engine files, regenerated from the pinned version
+/.claude/skills/
+/.claude/commands/
+/.claude/workflows/
+/.claude/scripts/
+/.claude/settings.json
+/.agent-skills/
+/methodology/
+/docs/
+/examples/
+/templates/
+/scripts/run-workflow.mjs
+/scripts/workflow-runtime.mjs
+# Local records and authentication
+/local/
+/journal/*
+!/journal/README.md
+/.mcp.json
+/.claude/settings.local.json
+/.claude/curator-state.json
+.env
+.env.*
+*.jsonl
+__pycache__/
+.DS_Store
